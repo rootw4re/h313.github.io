@@ -8,11 +8,9 @@ permalink: /posts
   <br>
   {% for post in site.posts %}
     <div class="col-md-6">
-      <a href="{{ post.url | prepend: site.baseurl}}">
-        <h1{{ post.title }}</h1>
-        <p>Posted on <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
-        <p>{{ post.summary }}</p>
-      </a>
+      <h3><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
+      <p>Posted on <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
+      <p>{{ post.summary }}</p>
     </div>
   {% endfor %}
 </div>

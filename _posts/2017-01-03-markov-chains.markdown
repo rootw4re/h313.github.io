@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "Markov Chains"
 date: 2017-01-03 11:53:44 -0400
 categories: markov web

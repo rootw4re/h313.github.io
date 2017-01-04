@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "markov Chains"
+title: "Markov Chains"
 date: 2016-08-16 11:53:44 -0400
 categories: markov web
 summary: "Two online tools to help you generate Markov Chains"

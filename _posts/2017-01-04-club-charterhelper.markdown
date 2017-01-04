@@ -14,7 +14,7 @@ Also supports cool images!
 
 * [GitHub Repo][repo]
 * [Website][site]
-* [Live Instance][demo] used by my school
+* [Live Instance][demo] used by my school, you might receive a 503 at first, just reload and it should work. Requires a `@charterschool.org` email.
 
 [repo]: https://github.com/h313/club-charterhelper
 [site]: http://h313.github.io/club-charterhelper

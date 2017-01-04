@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Markov Chains"
-date: 2016-08-16 11:53:44 -0400
+date: 2017-01-03 11:53:44 -0400
 categories: markov web
 summary: "Two online tools to help you generate Markov Chains"
 ---

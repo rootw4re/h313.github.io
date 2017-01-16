@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "club-charterhelper"
-date: 2017-01-04 20:11:44 -0400
+date: 2016-08-13 20:11:44 -0400
 categories: web mean nodejs
 summary: "A student club manager that was badly named"
 ---

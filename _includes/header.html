@@ -1,14 +1,15 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav>
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{ 'index.html' | prepend:site.url }}">
-        <img alt="Haoda Wang" src="{{ 'assets/avatar.png' | prepend:site.url }}">
-      </a>
-      <ul class="nav navbar-nav">
-        <li><a href="{{ 'index.html' | prepend:site.url }}">Home</a></li>
-        <li><a href="{{ 'projects' | prepend:site.url }}">Projects</a></li>
-        <li><a href="{{ 'social' | prepend:site.url }}">Social</a></li>
-      </ul>
+    <div class="row">
+      <div class="one column">
+        <a href="{{ 'index.html' | prepend:site.url }}"><img alt="Haoda Wang" src="{{ 'assets/avatar.png' | prepend:site.url }}"></a>
+      </div>
+      <div class="three columns"></div>
+      <div class="eight columns">
+        <a href="{{ 'index.html' | prepend:site.url }}">Home</a>
+        <a href="{{ 'projects' | prepend:site.url }}">Projects</a>
+        <a href="{{ 'social' | prepend:site.url }}">Social</a>
+      </div>
     </div>
   </div>
 </nav>

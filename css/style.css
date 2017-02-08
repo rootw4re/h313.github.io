@@ -1,9 +1,11 @@
-.site {
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
-
 .content {
   flex: 1;
 }

@@ -1,5 +1,5 @@
 var state = 0;
-my_function(){
+function doThing() {
   switch(state) {
     case 0:
       $("#title").text("Some guy");
@@ -36,4 +36,4 @@ my_function(){
     state = 0;
   }
 };
-setInterval(my_function, 1500);
+setInterval(doThing, 1500);

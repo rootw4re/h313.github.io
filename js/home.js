@@ -29,10 +29,31 @@ function doThing() {
       $("#title").text("Getting a sandwich");
       break;
     case 9:
+      $("#title").text("Out of sandwiches");
+      break;
+    case 10:
       $("#title").text("Will do Linux tricks for food");
       break;
+    case 11:
+      $("#title").text("Can write things and make you feel my pain");
+      break;
+    case 12:
+      $("#title").text("Mentally stable!");
+      break;
+    case 13:
+      $("#title").text("Can draw lines");
+      break;
+    case 14:
+      $("#title").text("Can copy and paste code");
+      break;
+    case 15:
+      $("#title").text("Finally found some food");
+      break;
+    default:
+      $("#title").text("Makes broken websites");
+      break;
   }
-  if(++state==10) {
+  if(++state==16) {
     state = 0;
   }
 };

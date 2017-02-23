@@ -4,20 +4,22 @@ layout: default
 permalink: /projects
 ---
 <div class="container">
-  <h1>Projects</h1>
+  <h1 class="huge-head">Projects</h1>
+  <br>
+  <p>Here's my list of all those little side programming projects I've worked on. Of course, I <a href="https://sadbadlines.tumblr.com/">draw</a> a bit and <a href="https://h313-rants.tumblr.com/">rant</a> a lot.</p>
   <br>
   {% for project in site.posts %}
   {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
       <div class="row">
         <div class="six columns">
-          <h3><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
+          <h3 class="name"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
           <p>Posted on <b>{{ project.date | date: "%b %-d, %Y" }}</b></p>
           <p>{{ project.summary }}</p>
         </div>
       {% else %}
         <div class="six columns">
-          <h3><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
+          <h3 class="name"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
           <p>Posted on <b>{{ project.date | date: "%b %-d, %Y" }}</b></p>
           <p>{{ project.summary }}</p>
         </div>
@@ -26,3 +28,5 @@ permalink: /projects
   {% endfor %}
   </div>
 </div>
+
+<link rel="stylesheet" href="{{ 'css/home.css' | prepend: site.url }}">

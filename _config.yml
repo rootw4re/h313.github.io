@@ -17,7 +17,7 @@ title: Some Guy's Website
 email: arandomawesomegeek@gmail.com
 description: Made by Haoda Wang
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://h313.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://h313.info/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: w_h313
 github_username:  h313
 future: true

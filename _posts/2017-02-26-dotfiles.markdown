@@ -4,8 +4,6 @@ title: "dotfiles"
 date: 2017-02-26 11:53:44 -0400
 categories: linux config
 summary: "Configuration files for Arch Linux"
+link: "http://github.com/h313/dotfiles"
 ---
-
-[Here][dotfiles] are my config files for using i3 in Arch Linux.
-
-[dotfiles]: http://github.com/h313/dotfiles
+These are my config files for using i3 in Arch Linux.

@@ -1,7 +1,7 @@
 p {
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size:20px;
-  margin:0.3em;
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+  margin: 0.2em;
   color: #C5C8C6;
   white-space: pre;
 }

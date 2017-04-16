@@ -3,30 +3,17 @@ title: Projects
 layout: default
 permalink: /projects
 ---
-<div class="container">
-  <h1 class="huge-head">Projects</h1>
-  <br>
-  <p>Here's my list of all those little side programming projects I've worked on. Of course, I <a href="https://sadbadlines.tumblr.com/">draw</a> a bit and <a href="https://h313-rants.tumblr.com/">rant</a> a lot.</p>
+<div>
+  <p><span class="desc">var</span> Projects = <span class="desc">class</span> {</p>
+  <p>  <span class="obj">this</span>.<span class="obj">desc</span> = <span class="str">"Here are all of the things I have worked on."</span>;</p>
+  <p>  <span class="obj">this</span>.<span class="obj">projects</span> = [];</p>
+  <p>}</p>
   <br>
   {% for project in site.posts %}
-  {% assign loopindex = forloop.index | modulo: 2 %}
-    {% if loopindex == 1 %}
-      <div class="row">
-        <div class="six columns">
-          <h3 class="name"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
-          <p>Posted on <b>{{ project.date | date: "%b %-d, %Y" }}</b></p>
-          <p>{{ project.summary }}</p>
-        </div>
-      {% else %}
-        <div class="six columns">
-          <h3 class="name"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></h3>
-          <p>Posted on <b>{{ project.date | date: "%b %-d, %Y" }}</b></p>
-          <p>{{ project.summary }}</p>
-        </div>
-      </div>
-    {% endif %}
+  <p><span class="obj">this</span>.<span class="obj">projects</span>.append({ <span class="str">"name"</span> : <span class="str">"{{ project.title }}"</span>},</p>
+  <p>                     {<span class="str">"date"</span>: <span class="str">"{{ project.date | date: "%b %-d, %Y" }}"</span>},</p>
+  <p>                     {<span class="str">"description"</span>: <span class="str">"{{ project.summary }}"</span>});</p>
+  <br>
   {% endfor %}
-  </div>
+  <span class="obj">module</span>.<span class="obj">exports</span> = Projects;
 </div>
-
-<link rel="stylesheet" href="{{ 'css/home.css' | prepend: site.url }}">

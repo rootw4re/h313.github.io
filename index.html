@@ -4,20 +4,22 @@ layout: default
 ---
 
 <div>
-  <p><span class="desc">var</span> person = <span class="desc">class</span> {</p>
+  <p><span class="desc">var</span> Person = <span class="desc">class</span> {</p>
   <p>  <span class="func">constructor</span>(name) {</p>
-  <p>    <span class="obj">this.name</span> = name;</p>
-  <p>    <span class="obj">this.about</span> = <span class="str">""</span>;</p>
-  <p>    <span class="obj">this.skills</span> = [];</p>
-  <p>    <span class="obj">this.project</span> = <span class="func">require</span>(<span class="str">"projects"</span>);</p>
+  <p>    <span class="obj">this</span>.<span class="obj">name</span> = name;</p>
+  <p>    <span class="obj">this</span>.<span class="obj">about</span> = <span class="str">""</span>;</p>
+  <p>    <span class="obj">this</span>.<span class="obj">skills</span> = [];</p>
+  <p>    <span class="obj">this</span>.<span class="obj">project</span> = <span class="func">require</span>(<span class="str">"projects"</span>);</p>
   <p>  }</p>
   <p>}</p>
   <br>
-  <p><span class="desc">var</span> harry = <span class="desc">new</span> <span class="class">person</span>(<span class="str">"Harry"</span>);</p>
-  <p><span class="obj">harry.about</span> = <span class="str">"Mentally stable!"</span>;</p>
-  <p><span class="obj">this.skills</span> = [<span class="str">"C++"</span>, <span class="str">"Linux"</span>, <span class="str">"NodeJS"</span>, <span class="str">"MongoDB"</span>];</p>
-  <p><span class="obj">this.projects</span> = <span class="func">require</span>(<a href="{{ 'projects.html' | prepend: site.url }}" class="str">"projects"</a>);</a></p>
-  <p><span class="obj">this.social</span> = [{<a href="https://github.com/h313" class="str">"github"</a>: <a href="https://github.com/h313" class="str">"h313"</a>},</p>
+  <p><span class="desc">var</span> harry = <span class="desc">new</span> <span class="class">Person</span>(<span class="str">"Harry"</span>);</p>
+  <p><span class="obj">harry</span>.<span class="obj">about</span> = <span class="str">"Mentally stable!"</span>;</p>
+  <p><span class="obj">this</span>.<span class="obj">skills</span> = [<span class="str">"C++"</span>, <span class="str">"Linux"</span>, <span class="str">"NodeJS"</span>, <span class="str">"MongoDB"</span>];</p>
+  <p><span class="obj">this</span>.<span class="obj">projects</span> = <span class="func">require</span>(<a href="{{ 'projects.html' | prepend: site.url }}" class="str">"projects"</a>);</a></p>
+  <p><span class="obj">this</span>.<span class="obj">social</span> = [{<a href="https://github.com/h313" class="str">"github"</a>: <a href="https://github.com/h313" class="str">"h313"</a>},</p>
   <p>               {<a href="https://github.com/h313" class="str">"facebook"</a>: <a href="https://www.facebook.com/wanghaoda" class="str">"wanghaoda"</a>}];</p>
   <p>               {<span class="string">"email"</span>: <a href="mailto:arandomawesomegeek@gmail.com" class="str">"mailto:arandomawesomegeek@gmail.com"</a>}];</p>
+  <br>
+  <p><span class="obj">module.exports</span> = Person;</p>
 </div>

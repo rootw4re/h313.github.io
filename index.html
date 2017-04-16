@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div>
-  <p><span class="desc">var</span> Person = <span class="desc">class</span> {</p>
+  <p><span class="desc">var</span> Person <span class="func">=</span> <span class="desc">class</span> {</p>
   <p>  <span class="func">constructor</span>(name) {</p>
   <p>    <span class="obj">this</span>.<span class="obj">name</span> <span class="func">=</span> name;</p>
   <p>    <span class="obj">this</span>.<span class="obj">about</span> <span class="func">=</span> <span class="str">""</span>;</p>
@@ -13,7 +13,7 @@ layout: default
   <p>  }</p>
   <p>}</p>
   <br>
-  <p><span class="desc">var</span> harry = <span class="desc">new</span> <span class="class">Person</span>(<span class="str">"Harry"</span>);</p>
+  <p><span class="desc">var</span> harry <span class="func">=</span> <span class="desc">new</span> <span class="class">Person</span>(<span class="str">"Harry"</span>);</p>
   <p><a href="{{ '/about.html' | prepend:site.url }}" class="obj">harry</a>.<a href="{{ '/about.html' | prepend:site.url }}" class="obj">about</a> <span class="func">=</span> <a href="{{ '/about.html' | prepend:site.url }}" class="str">"Mentally stable!"</a>;</p>
   <p><span class="obj">harry</span>.<span class="obj">skills</span> <span class="func">=</span> [<span class="str">"C++"</span>, <span class="str">"Linux"</span>, <span class="str">"NodeJS"</span>, <span class="str">"MongoDB"</span>];</p>
   <p><span class="obj">harry</span>.<span class="obj">projects</span> <span class="func">=</span> <span class="func">require</span>(<a href="{{ 'projects.html' | prepend: site.url }}" class="str">"projects"</a>);</a></p>

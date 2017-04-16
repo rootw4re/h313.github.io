@@ -4,19 +4,19 @@ layout: default
 ---
 
 <div>
-  <p>var person = class {</p>
-  <p>  constructor(name) {</p>
-  <p>    this.name = name;</p>
-  <p>    this.about = ""; = require("projects");</p>
-  <p>    this.skills = [];</p>
-  <p>    this.projects = [];</p>
+  <p><span class="desc">var</span> person = <span class="desc">class</span> {</p>
+  <p>  <span class="func">constructor</span>(name) {</p>
+  <p>    <span class="obj">this.name</span> = name;</p>
+  <p>    <span class="obj">this.about</span> = <span class="str">""</span>;</p>
+  <p>    <span class="obj">this.skills</span> = [];</p>
+  <p>    <span class="obj">this.project</span> = <span class="func">require</span>(<span class="str">"projects"</span>);</p>
   <p>  }</p>
   <p>}</p>
-
-  <p>var harry = new person("Harry");</p>
-  <p>harry.about = "Mentally stable!";</p>
-  <p>this.skills = ["C++", "Linux", "NodeJS", "MongoDB"];</p>
-  <p>this.projects = <a href="{{ 'projects.html' | prepend: site.url }}">require("projects");</a></p>
-  <p>this.social = [{'github': <a href="https://github.com/h313">'h313'</a>},</p>
-  <p>               {'facebook': 'wanghaoda'}];</p>
+  <br>
+  <p><span class="desc">var</span> harry = <span class="desc">new</span> <span class="class">person</span>(<span class="str">"Harry"</span>);</p>
+  <p><span class="obj">harry.about</span> = <span class="str">"Mentally stable!"</span>;</p>
+  <p><span class="obj">this.skills</span> = [<span class="str">"C++"</span>, <span class="str">"Linux"</span>, <span class="str">"NodeJS"</span>, <span class="str">"MongoDB"</span>];</p>
+  <p><span class="obj">this.projects</span> = <a href="{{ 'projects.html' | prepend: site.url }}"><span class="func">require</span>(<span class="str">"projects"</span>);</a></p>
+  <p><span class="obj">this.social</span> = [{<a href="https://github.com/h313" class="str">'github'</a>: <a href="https://github.com/h313" class="str">'h313'</a>},</p>
+  <p>               {<a href="https://github.com/h313" class="str">'facebook'</a>: <a href="https://www.facebook.com/wanghaoda" class="str">'wanghaoda'</a>}];</p>
 </div>

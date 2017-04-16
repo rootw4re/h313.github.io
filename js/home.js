@@ -1,9 +1,9 @@
 var person = class {
   constructor(name) {
     this.name = name;
-    this.about = ""; = require("projects");
+    this.about = "";
     this.skills = [];
-    this.projects = [];
+    this.projects = require("projects");
   }
 }
 

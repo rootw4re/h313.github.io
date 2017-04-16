@@ -5,12 +5,12 @@ permalink: /projects
 ---
 <div>
   <p><span class="desc">var</span> Projects = <span class="desc">class</span> {</p>
-  <p>  <span class="obj">this</span>.<span class="obj">desc</span> = <span class="str">"Here are all of the things I have worked on."</span>;</p>
-  <p>  <span class="obj">this</span>.<span class="obj">projects</span> = [];</p>
+  <p>  <span class="obj">this</span>.<span class="obj">desc</span> <span class="func">=</span> <span class="str">"Here are all of the things I have worked on."</span>;</p>
+  <p>  <span class="obj">this</span>.<span class="obj">projects</span> <span class="func">=</span> [];</p>
   <p>}</p>
   <br>
   {% for project in site.posts %}
-  <p><span class="obj">this</span>.<span class="obj">projects</span>.append({<a href="{{ project.url | prepend: site.url }}" class="str">"name"</a> : <a href="{{ project.url | prepend: site.url }}" class="str">"{{ project.title }}"</a>},</p>
+  <p><span class="obj">this</span>.<span class="obj">projects</span>.<span class="func">append</span>({<a href="{{ project.url | prepend: site.url }}" class="str">"name"</a> : <a href="{{ project.url | prepend: site.url }}" class="str">"{{ project.title }}"</a>},</p>
   <p>                     {<span class="str">"date"</span>: <span class="str">"{{ project.date | date: "%b %-d, %Y" }}"</span>},</p>
   <p>                     {<span class="str">"description"</span>: <span class="str">"{{ project.summary }}"</span>});</p>
   <br>

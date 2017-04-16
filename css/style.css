@@ -26,6 +26,10 @@ p {
   color: #CC6666;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #1D1F21;
 }

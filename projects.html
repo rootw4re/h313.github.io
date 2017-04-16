@@ -10,7 +10,7 @@ permalink: /projects
   <p>}</p>
   <br>
   {% for project in site.posts %}
-  <p><span class="obj">this</span>.<span class="obj">projects</span>.append({ <span class="str">"name"</span> : <span class="str">"{{ project.title }}"</span>},</p>
+  <p><span class="obj">this</span>.<span class="obj">projects</span>.append(<a href="{{ project.url | prepend: site.url }}">{<span class="str">"name"</span> : <span class="str">"{{ project.title }}"</span>}</a>,</p>
   <p>                     {<span class="str">"date"</span>: <span class="str">"{{ project.date | date: "%b %-d, %Y" }}"</span>},</p>
   <p>                     {<span class="str">"description"</span>: <span class="str">"{{ project.summary }}"</span>});</p>
   <br>

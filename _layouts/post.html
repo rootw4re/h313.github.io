@@ -12,7 +12,7 @@ layout: default
   <p>}</p>
   <br>
   <p><span class="desc">var</span> thisProject <span class="func">=</span> <span class="desc">new</span> <span class="class">Project</span>(<span class="str">"{{ page.title }}"</span>);</p>
-  <p><span class="obj">thisProject</span>.<span class="obj">about</span> <span class="func">=</span> <span class="str">"{{ content }}"</span>;</p>
+  <p><span class="obj">thisProject</span>.<span class="obj">about</span> <span class="func">=</span> <span class="str">"{{ page.desc }}"</span>;</p>
   <p><a href="{{ page.link }}" class="obj">thisProject</a>.<a href="{{ page.link }}" class="obj">url</a> <span class="func">=</span> <a href="{{ page.link }}" class="str">"{{ page.link }}"</a>;</p>
   <p><span class="obj">thisProject</span>.<span class="obj">tags</span> <span class="func">=</span> [{% for tag in page.categories %} <span class="str">"{{ tag }}"</span>, {% endfor %}<span class="str">"project"</span>];</p>
   <br>

@@ -12,4 +12,5 @@ harry.about = "Mentally stable!";
 this.skills = ["C++", "Linux", "NodeJS", "MongoDB"];
 this.projects = require("projects");
 this.social = [{'github': 'h313'},
-               {'facebook': 'wanghaoda'}];
+               {'facebook': 'wanghaoda'},
+               {'email': 'mailto:arandomawesomegeek@gmail.com'}];

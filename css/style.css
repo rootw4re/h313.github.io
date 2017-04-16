@@ -1,7 +1,5 @@
-p {
-  font-family: monospace;
-}
-
-body {
-  
+p{
+  font-family:monospace;
+  font-size:20px;
+  margin:0.3em;
 }

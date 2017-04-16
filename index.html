@@ -3,38 +3,20 @@ title: Home
 layout: default
 ---
 
-<div class="container topThing">
-  <div class="row" style="position: relative;top: 50%;transform: translateY(-50%);">
-    <h1 style="text-align: center; font-size: 72px;"><span id="title">This Guy Can't Make Websites</span></h1>
-    <h5 style="text-align: center;">Please hire me...</h5>
-  </div>
-</div>
-<br><br>
-<h1 style="text-align: center;">Product Features</h1>
-<div class="coolThing">
-  <div class="container">
-    <div class="row">
-      <div class="four columns">
-        <h3 style="color: white; text-align: center;">5/7</h3>
-        <h5 style="color: white; text-align: center;">skill at making jokes and offending people!</h5>
-      </div>
-      <div class="four columns">
-        <h3 style="color: white; text-align: center;">1</h3>
-        <h5 style="color: white; text-align: center;">important computer broken irreparably so far</h5>
-      </div>
-      <div class="four columns">
-        <h3 style="color: white; text-align: center;">100</h3>
-        <h5 style="color: white; text-align: center;">Reasons why you should hire this weird guy!</h5>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container">
-  <div class="row">
-    <p>Why are you even down here? Go on and <a href="/projects">take a look</a> at all my stuff pls.</p>
-  </div>
-</div>
+<div>
+  <p>var person = class {</p>
+  <p>  constructor(name) {</p>
+  <p>    this.name = name;</p>
+  <p>    this.about = ""; = require("projects");</p>
+  <p>    this.skills = [];</p>
+  <p>    this.projects = [];</p>
+  <p>  }</p>
+  <p>}</p>
 
-<link rel="stylesheet" href="{{ 'css/home.css' | prepend: site.url }}">
-<script src="{{ 'js/home.js' | prepend: site.url }}"></script>
+  <p>var harry = new person("Harry");</p>
+  <p>harry.about = "Mentally stable!";</p>
+  <p>this.skills = ["C++", "Linux", "NodeJS", "MongoDB"];</p>
+  <p>this.projects = <a href="{{ 'projects.html' | prepend: site.url }}">require("projects");</a></p>
+  <p>this.social = [{'github': 'h313'},</p>
+  <p>               {'facebook': 'wanghaoda'}];</p>
+</div>

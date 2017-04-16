@@ -5,24 +5,27 @@ permalink: /about
 ---
 
 <div class="container">
-  <div class="row">
-    <h1>Hello!</h1>
-    <br>
-    <p>My name is Haoda Wang, and I'm an ongoing existential crisis! I think this is where I write about myself and try to impress you...?</p>
-    <p>Anyways, I've been toying around with web technologies, and so far I've created <a href="/projects">a bunch of nifty web apps</a> with them. So far, I can create stuff using the MEAN stack, am proficient enough in C++, C#, and Java, and am really good at Linux and networking stuff. I can also kind of use Python (with a lot of Stack Overflow of course).</p>
-    <p>I also try to draw a bit, but the results usually end up a bit <a href="https://sadbadlines.tumblr.com">subpar</a>.</p>
-    <h3>Stuff I Like</h3>
-    <p>Neural networks are pretty cool. I've spent a bit of time learning about those and can use Tensorflow now!</p>
-    <p>I'm in love with Linux. I've spent nearly two years learning about using Linux, and can pretty much set up Linux from scratch now.</p>
-    <p>I've done a whole lot in web application development, and I've learned to use MongoDB and Redis for databases, Python and NodeJS for backends, and Angular and React for the frontend.</p>
-    <p>Thinking up of algorithms to solve problems is fun. As long as there isn't a time limit.</p>
-    <h3>Awards and stuff</h3>
-    <ul>
-      <li><b>MATHCOUNTS</b> State 2nd Place Individual, State 1st Place Team</li>
-      <li><b>VEX Robotics</b> State Tournament Winner</li>
-      <li><b>Philadelphia Classic</b> 1st Place Team</li>
-      <li><b>State Math League</b> 2nd Place Team</li>
-    </ul>
-    <p>My resume is available <a href="{{ '/resume/resume.pdf' || prepend: site.baseurl }}">here</a>.</p>
-  </div>
+  <p>harry = <span class="func">require</span>(<a href="{{ '/index.html' | prepend: site.url }}" class="str">"home.js"</a>);</p>
+  <br>
+  <p><span class="obj">harry</span>.<span class="obj">about</span> <span class="func">=</span> [];</p>
+  <br>
+  <p><span class="obj">harry</span>.<span class="obj">about</span>.<span class="func">append</span>({"awards": [{"MATHCOUNTS 2013": "State 2nd Place Individual, 1st Place Team"},</p>
+  <p>                               {"VEX Robotics 2017": "State Tournament Winner"},</p>
+  <p>                               {"Philadelphia Classic 2016": "First Place Novice Team"}]});</p>
+  <br>
+  <p><span class="obj">harry</span>.<span class="obj">about</span>.<span class="func">append</span>({<span class="str">"likes": [<span class="str">"Linux"</span>,</p>
+  <p>                              <span class="str">"Web Development"</span>,</p>
+  <p>                              <span class="str">"Deep Learning"</span>,</p>
+  <p>                              <span class="str">"Networking"</span>]});</p>
+  <br>
+  <p><span class="obj">harry</span>.<span class="obj">about</span>.<span class="func">append</span>({<span class="str">"skills"</span>: [<span class="str">"Redis"</span>,</p>
+  <p>                               <span class="str">"MongoDB"</span>,</p>
+  <p>                               <span class="str">"TensorFlow"</span>,</p>
+  <p>                               <span class="str">"NodeJS"</span>,</p>
+  <p>                               <span class="str">"C++"</span>,</p>
+  <p>                               <span class="str">"Java"</span>,</p>
+  <p>                               <span class="str">"AngularJS 1+2"</span>,</p>
+  <p>                               <span class="str">"Linux"</span>]});</p>
+  <br>
+  <p><span class="obj">harry</span>.<span class="obj">about</span>.<span class="func">append</span>({<a href="{{ '/resume/resume.pdf' || prepend: site.baseurl }}" class="str">"resume"</a>: <a href="{{ '/resume/resume.pdf' || prepend: site.baseurl }}" class="str">"in pdf"</a>});</p>
 </div>

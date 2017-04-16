@@ -9,10 +9,10 @@ var Person = class {
 
 var harry = new Person("Harry");
 harry.about = "Mentally stable!";
-this.skills = ["C++", "Linux", "NodeJS", "MongoDB"];
-this.projects = require("projects");
-this.social = [{'github': 'h313'},
+harry.skills = ["C++", "Linux", "NodeJS", "MongoDB"];
+harry.projects = require("projects");
+harry.social = [{'github': 'h313'},
                {'facebook': 'wanghaoda'},
                {'email': 'mailto:arandomawesomegeek@gmail.com'}];
 
-module.exports = Person;
+module.exports = harry;

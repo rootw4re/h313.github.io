@@ -6,10 +6,7 @@ categories: markov web
 summary: "Two online tools to help you generate Markov Chains"
 ---
 
-Markov Chains are great. They allow you to create a something new that sorta
-makes sense from some original source material. So, I went ahead and made my own
-two Markov Chains! Of course, the source code for these projects is available on
-GitHub.
+Markov Chains are great. They allow you to create a something new that sorta makes sense from some original source material. So, I went ahead and made my own two Markov Chains! Of course, the source code for these projects is available on GitHub.
 
 * [Shakespeare's Dreams][dreams], based off of Shakespeare's
 *Macbeth*

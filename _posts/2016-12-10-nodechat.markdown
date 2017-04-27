@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "nodeChat"
-date: 2016-12-15 11:53:44 -0400
+date: 2016-12-10 11:53:44 -0400
 categories: chat web
 summary: "A self-hosted NodeJS chat service that respects your privacy!"
 link: "https://h313.github.io/nodeChat/"
